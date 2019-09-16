@@ -1,6 +1,3 @@
-#VS code test
-#another one
-#inca un test
 import playlist
 import rename_music
 

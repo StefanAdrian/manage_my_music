@@ -5,7 +5,7 @@ from mutagen.easyid3 import EasyID3
 
 
 def do_it():
-    directory = 'D:\Muzica\\'
+    directory = 'D:\\Muzica\\'
     for file_name in os.listdir(directory):
         old_file_name = str(directory) + str(file_name)
         if old_file_name.endswith('.flac'):
